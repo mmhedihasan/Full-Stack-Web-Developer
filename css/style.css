@@ -1,0 +1,110 @@
+/**********************************************
+        Normalize CSS
+*******************************************/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+
+p {}
+
+.btn {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+/**********************************************
+        Navbar CSS
+*******************************************/
+.navbar {
+    background-color: #122938;
+    padding: 10px 40px;
+}
+
+.navbar-left .nav_logo {
+    width: 100px;
+}
+
+.navbar-right ul {
+    list-style: none;
+}
+
+.navbar-right ul li {
+    display: inline-block;
+}
+
+.navbar-right ul li a.active {
+    border-bottom: 2px solid red;
+}
+
+.btn-portfolio {
+    position: relative;
+}
+
+.btn-portfolio .portfolio-count {
+    background-color: red;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -4px;
+    top: -5px;
+    padding: 2px;
+    border-radius: 50%;
+    text-align: center;
+    color: #FFF;
+}
+.header-banner{
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    padding: 25px;
+    background-size: cover;
+    height: 100vh;
+}
+.header-text{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    left: 20%;
+    right: 20%;
+}
+.header-text h2{
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+}
+.header-text p{
+    font-size: 1.2em;
+    
+}
+
+/**********************************************
+        Header Banner CSS
+*******************************************/
