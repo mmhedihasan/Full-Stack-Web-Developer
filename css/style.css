@@ -45,6 +45,13 @@ p {}
 *******************************************/
 .navbar {
     background-color: #122938;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar .nav-inner {
     padding: 10px 40px;
 }
 
@@ -80,31 +87,62 @@ p {}
     text-align: center;
     color: #FFF;
 }
-.header-banner{
+
+.header-banner {
     background-image: url(../image/banner.jpg);
     background-repeat: no-repeat;
     padding: 25px;
     background-size: cover;
     height: 100vh;
 }
-.header-text{
+
+.header-text {
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
     text-align: center;
     color: #fff;
     left: 20%;
     right: 20%;
 }
-.header-text h2{
+
+.header-text h2 {
     font-size: 3rem;
     padding: 0;
     margin: 0;
 }
-.header-text p{
+
+.header-text p {
     font-size: 1.2em;
-    
+
+}
+
+.header-social a {
+    margin-right: 5px;
+    font-size: 0.8rem;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.header-social a.facebook {
+    background-color: #1876f2;
+}
+
+.header-social a.twitter {
+    background-color: #1d9bf0;
+}
+
+.header-social a.youtube {
+    background-color: red;
 }
 
 /**********************************************
         Header Banner CSS
 *******************************************/
+
+
+/**********************************************
+        content CSS
+*******************************************/
+.content{
+    padding: 40px;
+}
