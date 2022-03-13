@@ -49,6 +49,7 @@ p {}
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 100;
 }
 
 .navbar .nav-inner {
@@ -65,6 +66,9 @@ p {}
 
 .navbar-right ul li {
     display: inline-block;
+}
+.navbar-right ul li a:hover {
+    color:red;
 }
 
 .navbar-right ul li a.active {
